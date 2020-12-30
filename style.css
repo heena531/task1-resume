@@ -1,0 +1,132 @@
+h1{
+    font-size: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.profile-image {
+    margin-bottom: 30px;
+}
+
+h1,
+h2{
+    font-family: 'Pacifico', cursive;
+}
+.container {
+    background: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+.address {
+    line-height: 1.5;
+}
+h1 {
+    padding-bottom: 30px;
+}
+
+h2 {
+    background-color: #a09696;
+    padding: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.inner-container {
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 5px #000;
+    background: #fff;
+    padding: 20px;
+    line-height: 2;
+}
+
+.table-class,
+ .table-class td,
+  .table-class tr,
+  .table-class th {
+    border: 1px solid #000;
+}
+.table-class td, .table-class th {
+    padding: 20px;
+}
+
+.table-class th {
+    background-color:rgb(230, 230, 230);
+}
+
+table {
+    width: 60%;
+}
+
+ul {
+    padding-left: 40px;
+    line-height: 2;
+}
+
+/* .personal-details,
+ .personal-details td,
+  .personal-details tr,
+  .personal-details th {
+    border: 1px solid #000;
+} */
+
+.personal-details td {
+    padding: 10px 20px;
+}
+
+.label {
+    width: 200px;
+    display: inline-block;
+    color: #757171;
+    font-size: 16px;
+}
+
+form {
+    padding: 20px;
+}
+
+.form-element {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 5px 10px;
+    border: 1px solid darkgray;
+    border-radius: 4px;
+    width: 250px;
+}
+
+input[type="submit"] {
+    background-color: rgb(24, 131, 224);
+    width: 100px;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 205px;
+}
+
+.form-element select {
+    height: 25px;
+    padding: 5px;
+    width: 250px;
+}
+
+.form-element textarea {
+    height: 100px;
+    padding: 5px 10px;
+    width: 250px;
+}
+
+iframe {
+    width: 100%;
+}
